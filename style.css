@@ -1,58 +1,100 @@
-.conteiner{
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: rgb(255, 255, 255);
+body {
+  font-family: "Playfair Display", serif;
 }
 
-.conteiner-contra{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-width: 1500px;
-min-height: 700px;
-gap: 300px;
-margin: 70px 50px 70px 50px ;
-background-color: rgb(255, 255, 255);
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
 }
 
-.card{
-width: 300px;
-height:400px ;
-background-color: rgb(122, 122, 122);
-border-radius: 10%;
-box-shadow: none;
-transition: transform 2s ease-out, box-shadow 2s ease;
+.conteiner-contra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1500px;
+  min-height: 700px;
+  gap: 300px;
+  margin: 70px 50px 70px 50px;
+  background-color: rgb(255, 255, 255);
 }
 
-.card:hover{
-    box-shadow: 5px 5px 5px black;
-    transition: 2s;
-    transform: translateY(-30px);
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(122, 122, 122);
+  border-radius: 10%;
+  box-shadow: none;
+  transition: transform 2s ease-out, box-shadow 2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.up{
-height: 50vh;
-min-width: 20vh;
-background-color: rgb(255, 0, 0);
-
+.card:hover {
+  box-shadow: 5px 5px 5px black;
+  transition: 2s;
+  transform: translateY(-30px);
 }
 
-.down{
-height: 35vh;
-min-width: 20vh;
-background-color: rgb(255, 0, 0);
+.up {
+  height: 25vh;
+  min-width: 20vh;
+  background-color: rgb(255, 0, 0);
 }
 
-.logo{
-    font-size: 3rem;
+.down {
+  height: 21vh;
+  min-width: 20vh;
+  background-color: rgb(255, 0, 0);
 }
 
-.podlogo{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-   padding: 10px;
-    
+.logo {
+  width: 100px;
+  height: 100px;
 }
+
+.logot {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.podlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.fota {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.com {
+  display: flex;
+  align-items: flex-end;
+}
+
+.names {
+  display: flex;
+  gap: 70px;
+}
+
+.sprite {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.together {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
