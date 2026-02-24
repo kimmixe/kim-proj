@@ -17,14 +17,14 @@ body {
   width: 1500px;
   min-height: 700px;
   gap: 300px;
-  margin: 70px 50px 70px 50px;
+  margin: 190px 50px 190px 50px;
   background-color: rgb(255, 255, 255);
 }
 
 .card {
   width: 300px;
   height: 400px;
-  background-color: rgb(122, 122, 122);
+  background-color: rgba(209, 204, 204, 0.233);
   border-radius: 10%;
   box-shadow: none;
   transition: transform 2s ease-out, box-shadow 2s ease;
@@ -41,15 +41,18 @@ body {
 }
 
 .up {
-  height: 25vh;
+  height: 20vh;
   min-width: 20vh;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(151, 151, 151);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
 }
 
 .down {
   height: 21vh;
   min-width: 20vh;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(151, 151, 151);
 }
 
 .logo {
@@ -67,7 +70,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 .fota {
@@ -96,5 +98,27 @@ h1 {
 }
 
 .together {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.poddown {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.podcest {
+  font-size: 14px;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */
